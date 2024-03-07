@@ -21,6 +21,12 @@
 									"});\r",
 									"pm.test(\"Status code name should be OK string\", function () {\r",
 									"    pm.response.to.have.status(\"OK\");\r",
+									"});\r",
+									"pm.test(\"Status code should be 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"pm.test(\"Status code name should have OK string\", function () {\r",
+									"    pm.response.to.have.status(\"OK\");\r",
 									"});"
 								],
 								"type": "text/javascript"
